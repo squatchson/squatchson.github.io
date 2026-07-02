@@ -71,7 +71,7 @@ nav a:hover {
 
 
 .img-left{
-    width: 80%;
+    max-width: 80vw;
     height: 500 px;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -81,7 +81,7 @@ nav a:hover {
     background-color:rgba(24, 24, 197, 0.5);
     margin: 10%;
     border-radius: 50px;
-        backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
 
 }
 .img-left p{
@@ -89,15 +89,16 @@ nav a:hover {
     margin-right: 15%;
     height: auto;
     padding: 35px;
-    font-size:larger;
+    font-size: clamp(2vw, 20px, 36px );
     border-radius: 20px;
     background-color: blue;
     
 }
 .img-left img{
     margin-left: 15%;
-    height: 250px;
-    width: auto;
+    height: auto;
+    max-width: 30vw;
+    border-radius: 8px;
     
 }
 
@@ -119,7 +120,7 @@ nav a:hover {
 }
 .img-right p{
     width: 30%;
-    margin-left: 13%;
+    margin-left: 15vw;
     height: auto;
     padding: 35px;
     font-size: larger;
@@ -128,7 +129,7 @@ nav a:hover {
     
 }
 .img-right img{
-    margin-right: 13%;
+    margin-right: 15vw;
     height: 250px;
     width: auto;
 }
