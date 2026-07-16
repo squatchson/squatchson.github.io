@@ -161,8 +161,8 @@ p{
 }
 
 .quotes{
-align-items: center;
-margin-top: 20px;
+    align-items: center;
+    margin-top: 20px;
 }
 
 .quotes div{ 
@@ -200,17 +200,20 @@ margin-top: 20px;
     padding: 20px;
     margin: 50px 0 ;
 }
+
 .wos-container h1{
     font-size: clamp(20px, 40px, 60px);
     text-align: center;
     margin: 20px 0;
 }
+
 .wos-container img{
     display: block;
     margin: 10px auto;
     height: 200px;
     width: auto;
 }
+
 .wos-container p{
     font-size: clamp(10px, 200px, 30px);
     text-align: center;
