@@ -79,14 +79,31 @@ nav a:hover {
     background-size: 20px 20px;
 }
     
+.normal-background{
+    background-color: #3F3F4E;
+}
+
 .HERO {
-    background-image:url(images/stein.png) ;
+    /*background-image:url(images/stein.png) ;*/
+    background-color: #424242;
+    border-bottom: 4px solid black;
     background-size: cover;
     display: flex;
-    text-align: center;
+    justify-content: center;
+    align-items: center; 
     width: 100%;
     height: 45vw;
-    justify-content: center;
+}
+
+.HERO p{
+
+    font-size: larger;
+
+}
+
+#subText{
+    font-size: medium;
+    
 }
 
 .img-left{
