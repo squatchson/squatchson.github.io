@@ -15,6 +15,11 @@
     font-size:25px ;
 }
 
+a{
+    font-size: clamp(2vw, 20px, 36px );
+    color: black;
+}
+
 footer{
     height: 40px;
     background-color: rgba(88, 0, 110, 0.72);
@@ -158,6 +163,7 @@ nav a:hover {
 
 p{
     font-size: 12px;
+    color: black;
 }
 
 .quotes{
