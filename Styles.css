@@ -87,9 +87,9 @@ nav a:hover {
 }
 
 .HERO {
-    /*background-image:url(images/stein.png) ;*/
-    background-color: #424242;
-    border-bottom: 4px solid black;
+    background-image:url(images/stein.png) ;
+    /*background-color: #424242;
+    border-bottom: 4px solid black;*/
     background-size: cover;
     display: flex;
     justify-content: center;
